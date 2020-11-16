@@ -12,11 +12,31 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
-      name: '',
+      name: 'odoo addons for whim',
       repo: '',
-      coverpage: true
-    }
+      coverpage: true,
+      loadSidebar: true,
+      executeScript: true,
+      maxLevel: 6,
+      subMaxLevel: 6,
+      search: [
+        '/',
+        'view',
+        'menu',
+      ],
+      search: {
+        noData: {
+          '/': 'No results!'
+        },
+        paths: 'auto',
+        placeholder: {
+          '/': 'Search'
+        },
+      depth: 4,
+      },
+   }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
 </body>
 </html>

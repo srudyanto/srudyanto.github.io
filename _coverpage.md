@@ -11,3 +11,5 @@
 - FAQ
 
 [Get Started](../README.md)
+[Talent](../TALENT.md)
+[CRM/Sales](../CRM.md)
